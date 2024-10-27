@@ -3,6 +3,9 @@ id: nrf_bdw_833
 name: nrf_bdw_833
 type: board
 arch: arm
+features:
+  - keys
+  - studio
 outputs:
   - usb
   - ble

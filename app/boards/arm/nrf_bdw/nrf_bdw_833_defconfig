@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: MIT
 
+# v1 soldered 1.5u. space row only has a single layout.
+
 CONFIG_SOC_SERIES_NRF52X=y
 CONFIG_SOC_NRF52833_QIAA=y
 CONFIG_BOARD_NRF_BDW_833=y

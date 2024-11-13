@@ -10,8 +10,3 @@ config BOARD_NRF_BDW_840
 config BOARD_NRF_BDW_833
     bool "nrf_bdw_833"
     depends on SOC_NRF52833_QIAA
-
-config BOARD_TEST
-    bool "nrf_test"
-    depends on SOC_NRF52833_QIAA
-

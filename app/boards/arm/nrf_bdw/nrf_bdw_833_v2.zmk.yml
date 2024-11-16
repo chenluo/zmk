@@ -1,0 +1,12 @@
+file_format: "1"
+id: nrf_bdw_833_v2
+name: nrf_bdw_833_v2
+type: board
+arch: arm
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+url: https://github.com/chenluo/

@@ -1,10 +1,10 @@
 config BOARD_NRF_CHARGER
     bool "Enable battery charger"
     default y
-    depends on (BOARD_NRF_BDW_840 || BOARD_NRF_BDW_833)
+    depends on (BOARD_NRF_BDW_840 || BOARD_NRF_BDW_833 || BOARD_NRF_BDW_833_V2 )
 
 config BOARD_ENABLE_DCDC
     bool "Enable DCDC mode"
     select SOC_DCDC_NRF52X
     default y
-    depends on (BOARD_NRF_BDW_840 || BOARD_NRF_BDW_833)
+    depends on (BOARD_NRF_BDW_840 || BOARD_NRF_BDW_833 || BOARD_NRF_BDW_833_V2 )

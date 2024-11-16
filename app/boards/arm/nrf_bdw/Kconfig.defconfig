@@ -3,10 +3,10 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_NRF_BDW_840 || BOARD_NRF_BDW_833
+if BOARD_NRF_BDW_840 || BOARD_NRF_BDW_833 || BOARD_NRF_BDW_833_V2
 
 config ZMK_KEYBOARD_NAME
-    default "bdw_1027_2139"
+    default "nrf_bdw"
 
 config BOARD
     default "nrf_bdw"

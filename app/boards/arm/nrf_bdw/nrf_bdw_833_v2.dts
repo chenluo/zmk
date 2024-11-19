@@ -32,7 +32,7 @@
 
     vbatt: vbatt {
         compatible = "zmk,battery-voltage-divider";
-        io-channels = <&adc 2>;
+        io-channels = <&adc 5>;
         output-ohms = <2000000>;
         full-ohms = <(2000000 + 820000)>;
     };
@@ -43,7 +43,7 @@
         wakeup-source;
         col-gpios
             = <&gpio1 2  GPIO_ACTIVE_HIGH>
-            , <&gpio1 7  GPIO_ACTIVE_HIGH>
+            , <&gpio0 26 GPIO_ACTIVE_HIGH>
             , <&gpio0 7  GPIO_ACTIVE_HIGH>
             , <&gpio0 15 GPIO_ACTIVE_HIGH>
             , <&gpio0 17 GPIO_ACTIVE_HIGH>

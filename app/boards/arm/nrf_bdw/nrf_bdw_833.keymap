@@ -37,6 +37,24 @@
             tapping-term-ms = <180>;
             bindings = <&kp SQT>, <&kp DQT>;
         };
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <10>;
+            key-positions = <1 2>;
+            bindings = <&kp ESC>;
+        };
+        combo_sft_tab {
+            timeout-ms = <10>;
+            key-positions = <2 3>;
+            bindings = <&kp LS(TAB)>;
+        };
+        combo_tab {
+            timeout-ms = <10>;
+            key-positions = <3 4>;
+            bindings = <&kp TAB>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 

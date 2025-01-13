@@ -1,0 +1,12 @@
+file_format: "1"
+id: nrf_34_R2_833
+name: nrf_34_R2_833
+type: board
+arch: arm
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+url: https://github.com/chenluo/

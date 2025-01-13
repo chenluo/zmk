@@ -1,0 +1,39 @@
+# Electronut Labs Papyr board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_NRF_34_R2_833
+
+config ZMK_KEYBOARD_NAME
+    default "nrf_34_R2"
+
+config BOARD
+    default "nrf_34_R2"
+
+if USB_DEVICE_STACK
+
+config USB_NRFX
+    default y
+
+endif # USB_DEVICE_STACK
+
+config BT_CTLR
+    default BT
+
+
+config BOARD_NRF_CHARGER
+    default y
+
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
+
+
+endif # BOARD_NRF_34_R2_833

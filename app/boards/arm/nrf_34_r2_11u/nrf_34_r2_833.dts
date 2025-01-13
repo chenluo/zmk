@@ -8,6 +8,7 @@
 #include <nordic/nrf52833_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <layouts/common/ortho_4x12/all1u.dtsi>
+#include <dt-bindings/led/led.h>
 #include "nrf_34_r2_833-pinctrl.dtsi"
 
 
@@ -79,7 +80,7 @@
             RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,8) RC(3,9) RC(3,10) RC(3,11)
             >;
         };
-    
+
 };
 
 &adc {

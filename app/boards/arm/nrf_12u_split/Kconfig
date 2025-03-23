@@ -1,13 +1,13 @@
 config BOARD_NRF_CHARGER
     bool "Enable battery charger"
     default y
-    depends on (BOARD_NRF_12U_SPLIT_L || BOARD_NRF_12U_SPLIT_R)
+    depends on (BOARD_NRF_12U_SPLIT_LEFT || BOARD_NRF_12U_SPLIT_RIGHT)
 
 config BOARD_ENABLE_DCDC
     bool "Enable DCDC mode"
     select SOC_DCDC_NRF52X
     default y
-    depends on (BOARD_NRF_12U_SPLIT_L || BOARD_NRF_12U_SPLIT_R)
+    depends on (BOARD_NRF_12U_SPLIT_LEFT || BOARD_NRF_12U_SPLIT_RIGHT)
 
 config BOARD_NRF_12U_SPLIT_LEFT
     bool

@@ -1,0 +1,15 @@
+identifier: nrf_12u_split_833
+name: nrf_12u_split_833
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog

@@ -1,0 +1,15 @@
+file_format: "1"
+id: nrf_12u_split_833
+name: nrf_12u_split_833
+type: board
+arch: arm
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - nrf_12u_split_833_left
+  - nrf_12u_split_833_right
+url: https://github.com/chenluo/

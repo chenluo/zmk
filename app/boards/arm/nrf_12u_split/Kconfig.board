@@ -1,0 +1,24 @@
+# nrfmicro board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_NRF_12U_SPLIT_L
+    bool "nrf_12u_split_833_left"
+    depends on SOC_NRF52833_QIAA
+    select BOARD_NRF_12U_SPLIT_LEFT
+
+config BOARD_NRF_12U_SPLIT_R
+    bool "nrf_12u_split_833_right"
+    depends on SOC_NRF52833_QIAA
+    select BOARD_NRF_12U_SPLIT_RIGHT
+
+config BOARD_NRF_12U_SPLIT_840_LEFT
+    bool "nrf_12u_split_840_left"
+    depends on SOC_NRF52840_QIAA
+    select BOARD_NRF_12U_SPLIT_LEFT
+
+config BOARD_NRF_12U_SPLIT_840_RIGHT
+    bool "nrf_12u_split_840_right"
+    depends on SOC_NRF52840_QIAA
+    select BOARD_NRF_12U_SPLIT_RIGHT
